@@ -240,3 +240,44 @@ img {
   font-weight: 400px;
   color: #fff;
 }
+
+.contact {
+  background: #111;
+}
+
+.form-box {
+  min-width: 60%;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box form h3,
+.contact-info h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.form-box form input,
+.form-box form textarea {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  background: #222;
+  border: none;
+  outline: none;
+  color: #fff;
+  resize: none;
+}
+
+.form-box form textarea {
+  min-height: 200px;
+}
+
+.material-icons {
+  color: #2196f3;
+}
