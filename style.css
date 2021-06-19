@@ -278,6 +278,52 @@ img {
   min-height: 200px;
 }
 
-.material-icons {
+.form-box form input[type="submit"] {
+  max-width: 100px;
+  background: #2196f3;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-info {
+  min-width: 40%;
+}
+
+.content-box {
+  position: relative;
+}
+
+.contact-box .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.contact-info .box .icon {
+  min-width: 40px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 24px;
   color: #2196f3;
+}
+
+.contact-info .box .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 32px;
+  font-weight: 200;
 }
